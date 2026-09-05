@@ -1,1 +1,112 @@
 # klang-jeng-jaew
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>คลังเจ๋งแจ๋ว | ไอดีเกม</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🎮 คลังเจ๋งแจ๋ว</h1>
+
+  <nav>
+    <a href="#home">หน้าแรก</a>
+    <a href="#items">รายการไอดี</a>
+    <a href="#how">วิธีสั่งซื้อ</a>
+    <a href="#contact">ติดต่อ</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div>
+    <p class="tag">GAME ID STORE</p>
+    <h2>คลังเจ๋งแจ๋ว</h2>
+    <p>รวมไอดีเกมคุณภาพ ราคาคุ้ม พร้อมให้เลือกมากมาย</p>
+
+    <a href="#items" class="button">
+      ดูไอดีทั้งหมด
+    </a>
+  </div>
+
+  <img src="images/banner.svg" alt="คลังเจ๋งแจ๋ว">
+</section>
+
+<section class="features">
+  <div>🛡️ ตรวจสอบก่อนซื้อ</div>
+  <div>💰 ราคาคุ้ม</div>
+  <div>⚡ ตอบไว</div>
+  <div>📱 รองรับมือถือ</div>
+</section>
+
+<section id="items">
+  <h2>🔥 รายการไอดีเกม</h2>
+
+  <div class="search">
+    <input
+      type="text"
+      id="search"
+      placeholder="ค้นหา ID หรือชื่อเกม..."
+    >
+
+    <select id="filter">
+      <option value="all">ทุกสถานะ</option>
+      <option value="available">ไอดีว่าง</option>
+      <option value="sold">ขายแล้ว</option>
+    </select>
+  </div>
+
+  <div id="products" class="products"></div>
+</section>
+
+<section id="how" class="how">
+  <h2>🛒 วิธีสั่งซื้อ</h2>
+
+  <div class="steps">
+    <div>
+      <b>01</b>
+      <h3>เลือกไอดี</h3>
+      <p>เลือกไอดีที่สนใจ</p>
+    </div>
+
+    <div>
+      <b>02</b>
+      <h3>ติดต่อร้าน</h3>
+      <p>แจ้งรหัสไอดีกับร้าน</p>
+    </div>
+
+    <div>
+      <b>03</b>
+      <h3>ตรวจสอบ</h3>
+      <p>ตรวจสอบรายละเอียดก่อนซื้อ</p>
+    </div>
+
+    <div>
+      <b>04</b>
+      <h3>รับสินค้า</h3>
+      <p>ดำเนินการซื้อขาย</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>📞 ติดต่อร้าน</h2>
+  <p>สนใจไอดีไหน สามารถติดต่อสอบถามได้เลย</p>
+
+  <a href="#" class="button">Facebook</a>
+  <a href="#" class="button">LINE</a>
+</section>
+
+<footer>
+  © 2026 คลังเจ๋งแจ๋ว
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
