@@ -1,1 +1,2 @@
-
+bash -lc find /mnt/data -maxdepth 2 -type f -printf '%p
+' | head -30
